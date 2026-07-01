@@ -96,6 +96,42 @@
     <Compile Include="frmAUTOR.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCliente.Designer.vb">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDireccion.Designer.vb">
+      <DependentUpon>frmDireccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDireccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditorial.Designer.vb">
+      <DependentUpon>frmEditorial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLibro.Designer.vb">
+      <DependentUpon>frmLibro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLibro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrecioEditorial.Designer.vb">
+      <DependentUpon>frmPrecioEditorial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrecioEditorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVentas.Designer.vb">
+      <DependentUpon>frmVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -118,6 +154,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAUTOR.resx">
       <DependentUpon>frmAUTOR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente.resx">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDireccion.resx">
+      <DependentUpon>frmDireccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditorial.resx">
+      <DependentUpon>frmEditorial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLibro.resx">
+      <DependentUpon>frmLibro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrecioEditorial.resx">
+      <DependentUpon>frmPrecioEditorial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentas.resx">
+      <DependentUpon>frmVentas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
